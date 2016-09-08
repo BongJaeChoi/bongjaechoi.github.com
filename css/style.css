@@ -1,7 +1,6 @@
 @charset "UTF-8";
 .container{
     margin: 50px auto;
-    width: 1000px;
 }
 li{
   font-size:20px;
