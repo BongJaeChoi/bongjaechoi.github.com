@@ -6,7 +6,7 @@
 ## email jjgod0124@gmail.com
 ___
 
-##경력
+##
 
 [트램스](http://www.trams.co.kr/)
 - 2015.07.22 ~ 2016.07.30
