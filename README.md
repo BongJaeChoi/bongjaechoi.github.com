@@ -52,12 +52,14 @@ ___
 - 역할 : 카메라 원격제어 기능 개발, 소켓통신 모듈 개발
 - 사용기술 : Android, Java
 - [홈페이지 링크](https://tacademy.sktechx.com/frontMain.action)
+
 ###2. EMSONEPACK 물류센터 PDA 앱
 한국우편사업진흥원 EMSONEPACK(역직구 - 국내에서 해외로 합포장 서비스) 물류센터 직원용 PDA 앱
 - 기간 : 2015.09 ~ 2016.02
 - 역할 : UI 및 서버 통신 부분 개발
 - 사용기술 : Android, Java
 - [홈페이지 링크](https://www.emsonepack.com/)
+
 ###3. 법무부 편리한 공증제도 앱 개발
 사용자 분류(공증인)에 따라 다른 화면을 보여주는 Custom UI 가 적용된 공증제도 홍보용 앱
 - 기간 : 2015.08 ~ 2015.11
