@@ -95,11 +95,11 @@ ___
 - 사용기술 : Android, Java
 - [PlayStore 링크](https://play.google.com/store/apps/details?id=com.azitcompany.azitstudy)
 
-<img src="images/azit1.png" width="200"/>
-<img src="images/azit2.png" width="200"/>
-<img src="images/azit3.png" width="200"/>
-<img src="images/azit4.png" width="200"/>
-<img src="images/azit5.png" width="200"/>
+<img src="images/azit1.png" width="190"/>
+<img src="images/azit2.png" width="190"/>
+<img src="images/azit3.png" width="190"/>
+<img src="images/azit4.png" width="190"/>
+<img src="images/azit5.png" width="190"/>
 
 ###6. BlindRing 앱 개발
 통화 화면을 마음대로 커스터마이징 할 수 있도록하는 앱
