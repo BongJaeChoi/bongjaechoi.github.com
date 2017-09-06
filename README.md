@@ -18,6 +18,9 @@ ___
 
 ##경력
 
+[씨이랩](http://www.xiilab.co.kr/)
+- 2015.02 ~ 현재
+
 [트램스](http://www.trams.co.kr/)
 - 2015.07.22 ~ 2016.07.30
 
@@ -45,6 +48,14 @@ ___
 ___
 
 ##참여 프로젝트
+
+###0. 리워드 서비스 치즈카운터 개발
+리워드 기반 질응답 서비스 (REST API를 이용한 데이터 통신, 사진 크롭 업로드 및 다수의 이미지 컨트롤)ㅂ
+- 기간 : 2017.03 ~ 개발완료(운영중)
+- 역할 : 카메라 , 이미지 처리 및 개발 모든 부분 총괄
+- 사용기술 : Android, Java
+- [PlayStore 링크](https://play.google.com/store/apps/details?id=com.xiilab.servicedev.cheesecounter)
+
 
 ###1. SK T아카데미 IoT M2M 교재 개발
 소켓통신을 활용한 원격카메라 제어, 원격 어플리케이션 실행 기능 개발
