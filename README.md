@@ -58,6 +58,12 @@ ___
 - 사용기술 : Android, Java, Kotlin
 - [PlayStore 링크](https://play.google.com/store/apps/details?id=com.xiilab.servicedev.cheesecounter)
 
+<img src="images/cheese1.png" width="200"/>
+<img src="images/cheese2.png" width="200"/>
+<img src="images/cheese3.png" width="200"/>
+<img src="images/cheese4.png" width="200"/>
+<img src="images/cheese5.png" width="200"/>
+
 
 ### 2. SK T아카데미 IoT M2M 교재 개발
 소켓통신을 활용한 원격카메라 제어, 원격 어플리케이션 실행 기능 개발
@@ -87,7 +93,7 @@ ___
 <img src="images/moj5.png" width="200"/>
 <img src="images/moj6.png" width="200"/>
 
-###4. 마이크임팩트 tv 앱 개발
+### 4. 마이크임팩트 tv 앱 개발
 강연회사인 마이크임팩트 회사의 Android 앱 개발
 - 기간 : 2016.01 ~ 2016.04
 - 역할 : UI 및 서버 통신 부분 개발, 동영상 플레이어(ExoPlayer) 라이브러리 활용 개발
@@ -101,7 +107,7 @@ ___
 <img src="images/mic5.png" width="200"/>
 <img src="images/mic6.png" width="200"/>
 
-###5. Azit Study 앱 개발
+### 5. Azit Study 앱 개발
 청소년 학습분석 및 도움용 Android 앱 개발
 - 기간 : 2015.11 ~ 2016.02
 - 역할 : UI 개발 및 서버 연동 부분 개발
@@ -114,14 +120,14 @@ ___
 <img src="images/azit4.png" width="200"/>
 <img src="images/azit5.png" width="200"/>
 
-###6. BlindRing 앱 개발
+### 6. BlindRing 앱 개발
 통화 화면을 마음대로 커스터마이징 할 수 있도록하는 앱
 - 기간 : 2016.02 ~ 2016.05
 - 역할 : Android 앱 모든 개발부분 총괄(통화 감지 및 Custom UI 설정기능)
 - 사용기술 : Android, Java
 - 출시 준비중
 
-###7. SigBang 앱 개발
+### 7. SigBang 앱 개발
 가게(식당 등) 매물중개 서비스 앱
 - 기간 : 2016.05 ~ 2016.09
 - 역할 : Android 앱 모든 개발부분 총괄(매물 업로드 , 도로명주소 연동, Daum Map Api 연동, 모든 UI 및 기능 개발)
