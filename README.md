@@ -56,7 +56,7 @@ ___
 리워드 기반 질응답 서비스 (REST API를 이용한 데이터 통신, 사진 크롭 업로드, 소셜 로그인 및 다수의 이미지 컨트롤)
 - 기간 : 2017.03 ~ 개발완료(운영중)
 - 역할 : 카메라 , 이미지, 네트워크 데이터 통신 처리, 및 개발 모든 부분 총괄
-- 사용기술 : Android, Java, Kotlin, Fresco, Android Architecture Component(부분 적용)
+- 사용기술 : Android, Java, Kotlin, Fresco, Android Data Binding,  Android Architecture Component(부분 적용)
 - [PlayStore 링크](https://play.google.com/store/apps/details?id=com.xiilab.servicedev.cheesecounter)
 
 <img src="images/cheese1.png" width="200"/>
