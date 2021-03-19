@@ -4,26 +4,32 @@
 
 
 
-- 안드로이드 경력 2년 개발자
+- 안드로이드 경력 4년 개발자
 - 새로운것을 배우는걸 좋아합니다.
 - 앱을 개발하여 퍼블리싱까지 해본경험이 있습니다. / PlayStore - 담고풀고(서비스종료)
-- 현재 초기 개발부터 완료하여 운영 중인 앱이 있습니다 / PlayStore - 치즈카운터
-- 토이 프로젝트(개인 앱)을 진행하며 새로운 패턴, 기술을 적용해보려고합니다. / Github - https://github.com/BongJaeChoi/MyTodoList
+- 현재 초기 개발부터 완료하여 운영 해본 앱이 있습니다 / PlayStore - 치즈카운터(서비스종료)
+- 상용 서비스를 운영하는 스타트업에서 앱 운영 및 리뉴얼 작업에 참여하였습니다. / PlayStore - 헤이딜러, 헤이딜러 딜러용
+- 프로젝트에 적합한 패턴, 기술을 적용해보려 Medium, JetBrains 블로그 등을 구독하고 관심을 가지려 노력합니다.
 - 프로젝트에서 팀플을 매우 중요시 생각합니다. 디자이너, 기획자분들과 협업경험이 다 수 있습니다.
 - 저의 의견이 항상 틀릴 수 도 있다고 생각하고 열린자세로 커뮤니케이션에 임합니다.
 - 무조건 안된다는 말보다는 차근차근 설명하려 합니다.
+- 능동적인 자세로 개발관련 제안이나 기술을 먼저 제안하려 노력합니다.
 - https://zeplin.io/ 와 같은 협업툴을 사용해 본적이 있고 디자이너와도 대화를 많이 하려 노력합니다.
 - 소스코드 버전 관리를 매우 중요시 여깁니다. - git Repository 를 만드는일이 프로젝트 시작시 가장처음하는 일입니다.
+- Git Flow 로 협업해본 경헙이 있습니다.
 - Commit 메세지를 중요시 여깁니다. 기능 단위로 커밋하여 명시적으로 버전을 관리합니다.
 - REST API를 개발해본 경험이 있어 백엔드 개발자와 협업하기 보다 수월합니다.
-- Glide, Retrofit2, Fresco등 유명 라이브러리를 실무 수준으로 적용해보았습니다.
-- MVVM 패턴을 다뤄 본적이 있으며 Databinding을 실무 수준으로 사용하며 data 처리와 view간의 결합도를 낮추려 노력합니다.
-- 새로운 기술에대한 탐구를 즐겨하며 개발 스터디를 진행하고 있습니다.
+- Glide, Retrofit2, Fresco, Koin등 유명 라이브러리를 실무 수준으로 적용해보았습니다.
+- Kotlin을 메인 언어로 사용합니다.
+- MVVM 패턴, Clean Architecture 을 다뤄 본적이 있으며 Databinding을 실무 수준으로 사용하며 data 처리와 view간의 결합도를 낮추려 노력합니다.
 ___
 
 ## 경력
+[피알앤디 컴퍼니](https://www.prnd.co.kr/)
+- 2018.10 ~ 2020.12
+
 [스펙업애드 타임스프레드 팀](https://www.timespread.co.kr/)
-- 2018.03 ~ 현재
+- 2018.03 ~ 2018.07
 
 [씨이랩](http://www.xiilab.co.kr/)
 - 2017.02 ~ 2018.03
@@ -41,7 +47,7 @@ ___
 ### 담고풀고
 
 서운한 감정을 텍스트로 풀어 내보는 앱
-- 기간 : 2016.08 ~ 현재
+- 기간 : 2016.08 ~ 2016.12
 - 역할 : Android 앱 모든 개발부분 총괄
 - 사용 기술 : Facebook API, Android, Spring
 - [PlayStore 링크](https://play.google.com/store/apps/details?id=com.nexters.naemambo.naemambo) (서비스 종료)
@@ -54,8 +60,14 @@ ___
 ___
 
 ## 참여 프로젝트
+
+### 1. 중고차 플랫폼 앱 - 헤이딜러, 헤이딜러 딜러용 앱 개발 (상용 서비스)
+https://play.google.com/store/apps/details?id=kr.perfectree.heydealer&hl=ko&gl=US
+https://play.google.com/store/apps/details?id=kr.perfectree.heydealerfordealer&hl=ko&gl=US
+
+
 https://play.google.com/store/apps/details?id=com.timespread.Timetable2&hl=ko
-### 1. 리워드 기반 돈주는 시간표 앱 타임스프레드 개발
+### 2. 리워드 기반 돈주는 시간표 앱 타임스프레드 개발
 리워드 기반 질응답 서비스 (REST API를 이용한 데이터 통신, 사진 크롭 업로드, 소셜 로그인 및 다수의 이미지 컨트롤)
 - 기간 : 2018.03 ~ 개발완료(운영중)
 - 역할 : 공지사항 , CS툴 도입, 로그인 및 회원가입 기능 개발, 앱 권한 기능 개발, Rxjava2 도입
@@ -69,7 +81,7 @@ https://play.google.com/store/apps/details?id=com.timespread.Timetable2&hl=ko
 <img src="images/timespread6.png" width="200"/>
 <img src="images/timespread7.png" width="200"/>
 
-### 2. 설문 기반 리워드 서비스 앱 치즈카운터 개발
+### 3. 설문 기반 리워드 서비스 앱 치즈카운터 개발
 리워드 기반 질응답 서비스 (REST API를 이용한 데이터 통신, 사진 크롭 업로드, 소셜 로그인 및 다수의 이미지 컨트롤)
 - 기간 : 2017.03 ~ 개발완료(운영중)
 - 역할 : 카메라 , 이미지, 네트워크 데이터 통신 처리, 및 개발 모든 부분 총괄
@@ -82,21 +94,21 @@ https://play.google.com/store/apps/details?id=com.timespread.Timetable2&hl=ko
 <img src="images/cheese5.png" width="200"/>
 
 
-### 3. SK T아카데미 IoT M2M 교재 개발
+### 4. SK T아카데미 IoT M2M 교재 개발
 소켓통신을 활용한 원격카메라 제어, 원격 어플리케이션 실행 기능 개발
 - 기간 : 2013.12 ~ 2014.02
 - 역할 : 카메라 원격제어 기능 개발, 소켓통신 모듈 개발
 - 사용기술 : Android, Java
 - [홈페이지 링크](https://tacademy.sktechx.com/frontMain.action) (내부 프로젝트)
 
-### 4. EMSONEPACK 물류센터 PDA 앱
+### 5. EMSONEPACK 물류센터 PDA 앱
 한국우편사업진흥원 EMSONEPACK(역직구 - 국내에서 해외로 합포장 서비스) 물류센터 직원용 PDA 앱
 - 기간 : 2015.09 ~ 2016.02
 - 역할 : UI 및 서버 통신 부분 개발
 - 사용기술 : Android, Java
 - [홈페이지 링크](https://www.emsonepack.com/) (내부 프로젝트)
 
-### 5. 법무부 편리한 공증제도 앱 개발
+### 6. 법무부 편리한 공증제도 앱 개발
 사용자 분류(공증인)에 따라 다른 화면을 보여주는 Custom UI 가 적용된 공증제도 홍보용 앱
 - 기간 : 2015.08 ~ 2015.11
 - 역할 : UI 및 서버 통신 부분 개발, REST API 개발
@@ -109,7 +121,7 @@ https://play.google.com/store/apps/details?id=com.timespread.Timetable2&hl=ko
 <img src="images/moj5.png" width="200"/>
 <img src="images/moj6.png" width="200"/>
 
-### 6. 마이크임팩트 tv 앱 개발
+### 7. 마이크임팩트 tv 앱 개발
 강연회사인 마이크임팩트 회사의 Android 앱 개발
 - 기간 : 2016.01 ~ 2016.04
 - 역할 : UI 및 서버 통신 부분 개발, 동영상 플레이어(ExoPlayer) 라이브러리 활용 개발
@@ -122,7 +134,7 @@ https://play.google.com/store/apps/details?id=com.timespread.Timetable2&hl=ko
 <img src="images/mic5.png" width="200"/>
 <img src="images/mic6.png" width="200"/>
 
-### 7. Azit Study 앱 개발
+### 8. Azit Study 앱 개발
 청소년 학습분석 및 도움용 Android 앱 개발
 - 기간 : 2015.11 ~ 2016.02
 - 역할 : UI 개발 및 서버 연동 부분 개발
@@ -134,14 +146,14 @@ https://play.google.com/store/apps/details?id=com.timespread.Timetable2&hl=ko
 <img src="images/azit4.png" width="200"/>
 <img src="images/azit5.png" width="200"/>
 
-### 8. BlindRing 앱 개발
+### 9. BlindRing 앱 개발
 통화 화면을 마음대로 커스터마이징 할 수 있도록하는 앱
 - 기간 : 2016.02 ~ 2016.05
 - 역할 : Android 앱 모든 개발부분 총괄(통화 감지 및 Custom UI 설정기능)
 - 사용기술 : Android, Java
 
 
-### 9. SigBang 앱 개발
+### 10. SigBang 앱 개발
 가게(식당 등) 매물중개 서비스 앱
 - 기간 : 2016.05 ~ 2016.09
 - 역할 : Android 앱 모든 개발부분 총괄(매물 업로드 , 도로명주소 연동, Daum Map Api 연동, 모든 UI 및 기능 개발)
@@ -152,7 +164,6 @@ https://play.google.com/store/apps/details?id=com.timespread.Timetable2&hl=ko
 
 ___
 
-### 페이스북은 수시로 확인합니다.
 ### 연락은 아래로 주시기 바랍니다.
 ## facebook https://www.facebook.com/dakso053
 ## email jjgod0124@gmail.com
