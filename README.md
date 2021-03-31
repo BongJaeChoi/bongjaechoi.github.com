@@ -69,7 +69,7 @@ https://play.google.com/store/apps/details?id=kr.perfectree.heydealerfordealer&h
 https://play.google.com/store/apps/details?id=com.timespread.Timetable2&hl=ko
 ### 2. 리워드 기반 돈주는 시간표 앱 타임스프레드 개발
 리워드 기반 질응답 서비스 (REST API를 이용한 데이터 통신, 사진 크롭 업로드, 소셜 로그인 및 다수의 이미지 컨트롤)
-- 기간 : 2018.03 ~ 개발완료(운영중)
+- 기간 : 2018.03 ~
 - 역할 : 공지사항 , CS툴 도입, 로그인 및 회원가입 기능 개발, 앱 권한 기능 개발, Rxjava2 도입
 - 사용기술 : Android, Java, Kotlin, Rxjava2, RxKotlin2
 - [PlayStore 링크](https://play.google.com/store/apps/details?id=com.timespread.Timetable2&hl=ko)
@@ -83,7 +83,7 @@ https://play.google.com/store/apps/details?id=com.timespread.Timetable2&hl=ko
 
 ### 3. 설문 기반 리워드 서비스 앱 치즈카운터 개발
 리워드 기반 질응답 서비스 (REST API를 이용한 데이터 통신, 사진 크롭 업로드, 소셜 로그인 및 다수의 이미지 컨트롤)
-- 기간 : 2017.03 ~ 개발완료(운영중)
+- 기간 : 2017.03 ~ 개발완료(운영종료)
 - 역할 : 카메라 , 이미지, 네트워크 데이터 통신 처리, 및 개발 모든 부분 총괄
 - 사용기술 : Android, Java, Kotlin, Fresco, Android Data Binding,  Android Architecture Component(부분 적용)
 - [PlayStore 링크](https://play.google.com/store/apps/details?id=com.xiilab.servicedev.cheesecounter)
