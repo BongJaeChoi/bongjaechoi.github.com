@@ -4,7 +4,7 @@
 
 
 
-- 안드로이드 경력 5년차 개발자
+- 안드로이드 경력 6년차 개발자
 - 새로운것을 배우는걸 좋아합니다.
 - Github Action 으로 CI/CD 환경을 구축하여 테스터에게 배포한 경험이 있습니다.
 - 앱을 개발하여 퍼블리싱까지 해본경험이 있습니다. / PlayStore - 담고풀고(서비스종료)
@@ -15,7 +15,8 @@
 - 프로젝트에서 팀플을 매우 중요시 생각합니다. 디자이너, 기획자분들과 협업경험이 다 수 있습니다.
 - 저의 의견이 항상 틀릴 수 도 있다고 생각하고 열린자세로 커뮤니케이션에 임합니다.
 - 무조건 안된다는 말보다는 차근차근 설명하려 합니다.
-- 능동적인 자세로 개발관련 제안이나 기술을 먼저 제안하려 노력합니다. 사내에서 스터디를 주도하여 운영한 경험이 있습니다.
+- 능동적인 자세로 개발관련 제안이나 기술을 먼저 제안하려 노력합니다. 
+- 사내에서 스터디를 주도하여 운영한 경험이 있습니다.
 - 제플린, 피그마, 지라 와 같은 협업툴을 사용해 본적이 있고 기획자, 디자이너와도 대화를 많이 하려 노력합니다.
 - 소스코드 버전 관리를 매우 중요시 여깁니다. - git Repository 를 만드는일이 프로젝트 시작시 가장처음하는 일입니다.
 - Git Flow 로 협업해본 경험 있습니다.
@@ -31,7 +32,7 @@ ___
 
 ## 경력
 [루나소프트](https://lunasoft.co.kr/home/main/page/main/index)
-- 2021.05 ~ 2022.06(현재)
+- 2021.05 ~ 2022.12(현재)
 
 [피알앤디 컴퍼니](https://www.prnd.co.kr/)
 - 2018.10 ~ 2020.12
@@ -71,10 +72,9 @@ ___
 
 ### [쇼아 - 쇼핑몰 상품 모음 - 앱 유지보수 및 추가기능 개발](https://www.showa.kr/)
 https://play.google.com/store/apps/details?id=kr.co.lunasoft.showa&hl=ko
-### [셀룩 - 쇼아 리뉴얼 쇼핑몰 모음 하이브리드 앱 FrontEnd 개발 참여](https://intro.cellook.kr/)
-https://play.google.com/store/apps/details?id=kr.co.greenandgrey.cellook&hl=ko
 
-### 셀룩
+### [셀룩 - 쇼아 리뉴얼 쇼핑몰 모음 하이브리드 앱 및 FrontEnd 개발 참여](https://intro.cellook.kr/)
+https://play.google.com/store/apps/details?id=kr.co.greenandgrey.cellook&hl=ko
 
 
 ### 1. 중고차 플랫폼 앱 - 헤이딜러, 헤이딜러 딜러용 앱 개발 (상용 서비스)
