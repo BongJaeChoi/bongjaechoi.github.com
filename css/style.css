@@ -362,7 +362,8 @@ h1 {
 
 .thesis-grid,
 .evidence-grid,
-.work-grid {
+.work-grid,
+.case-outcomes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
@@ -370,7 +371,8 @@ h1 {
 
 .thesis-grid article,
 .evidence-grid article,
-.work-card {
+.work-card,
+.case-outcomes article {
   min-width: 0;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -383,7 +385,8 @@ h1 {
 
 .thesis-grid h3,
 .evidence-grid h3,
-.work-card h3 {
+.work-card h3,
+.case-outcomes h3 {
   margin: 14px 0 12px;
   font-size: 24px;
   line-height: 1.2;
@@ -392,7 +395,8 @@ h1 {
 .thesis-grid p,
 .evidence-grid p,
 .work-card p,
-.case-copy p {
+.case-copy p,
+.case-outcomes p {
   color: #414956;
   font-size: 16px;
   line-height: 1.75;
@@ -487,6 +491,26 @@ h1 {
 
 .gallery-card span {
   font-weight: 900;
+}
+
+.case-outcomes {
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10px;
+}
+
+.case-outcomes article {
+  padding: 24px;
+  background: var(--white);
+}
+
+.case-outcomes small {
+  display: block;
+  margin-top: 18px;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 850;
+  line-height: 1.5;
 }
 
 .evidence {
@@ -638,7 +662,8 @@ h1 {
   .metrics,
   .thesis-grid,
   .evidence-grid,
-  .work-grid {
+  .work-grid,
+  .case-outcomes {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -668,10 +693,6 @@ h1 {
   .site-header {
     margin-top: 10px;
     border-radius: var(--radius);
-  }
-
-  .brand span:last-child {
-    display: none;
   }
 
   .header-action {
@@ -726,6 +747,7 @@ h1 {
   .thesis-grid,
   .evidence-grid,
   .work-grid,
+  .case-outcomes,
   .case-gallery {
     grid-template-columns: 1fr;
   }
@@ -750,7 +772,8 @@ h1 {
 
   .thesis-grid article,
   .evidence-grid article,
-  .work-card {
+  .work-card,
+  .case-outcomes article {
     padding: 22px;
   }
 

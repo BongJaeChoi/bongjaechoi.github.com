@@ -4,7 +4,7 @@
 
 - 사이트 진입점: `index.html`
 - 이력서 PDF: `assets/resume/bongjae-choi-resume.pdf`
-- 주요 메시지: AI-Native App/Web Product Engineer
+- 주요 메시지: 앱 중심, 웹 확장, AI 운영 체계
 
 ## 로컬 확인
 
@@ -12,4 +12,4 @@
 
 ## 포지셔닝
 
-Flutter, Android, React 기반 앱/웹 제품을 함께 다루며, AI 지침과 배포 자동화로 제품 개발 흐름을 개선하는 개발자입니다.
+Flutter와 Android 기반 앱 개발 경험을 중심으로 WebView, 결제, 인증, 배포 자동화, React 파트너 웹 운영까지 확장한 모바일 중심 제품 엔지니어입니다.
