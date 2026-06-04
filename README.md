@@ -4,7 +4,7 @@
 
 - 사이트 진입점: `index.html`
 - 이력서 PDF: `assets/resume/bongjae-choi-resume.pdf`
-- 주요 메시지: 앱 중심, 웹 확장, AI 운영 체계
+- 주요 메시지: 앱 중심, 웹 확장, AI 검증 루틴
 
 ## 로컬 확인
 
