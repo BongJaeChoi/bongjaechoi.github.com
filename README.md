@@ -1,6 +1,6 @@
 # 최봉재 포트폴리오
 
-이 저장소는 채용용 포트폴리오 사이트입니다.
+환영합니다. 이 저장소는 채용용 포트폴리오 사이트입니다.
 
 - 사이트 진입점: `index.html`
 - 이력서 PDF: `assets/resume/bongjae-choi-resume.pdf`
