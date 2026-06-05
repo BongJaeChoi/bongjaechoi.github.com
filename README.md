@@ -4,11 +4,19 @@
 
 - 사이트 진입점: `index.html`
 - 이력서 PDF: `assets/resume/bongjae-choi-resume.pdf`
+- 이력서 HTML 원본: `assets/resume/bongjae-choi-resume.html`
+- 이력서 PDF 생성 스크립트: `scripts/generate_resume_pdf.py`
 - 주요 메시지: 앱 중심, 웹 확장, AI 검증 루틴
 
 ## 로컬 확인
 
 정적 사이트이므로 루트의 `index.html`을 브라우저에서 열면 됩니다.
+
+## 이력서 PDF 재생성
+
+```bash
+python3 scripts/generate_resume_pdf.py
+```
 
 ## 포지셔닝
 
