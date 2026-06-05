@@ -6,33 +6,58 @@
     <style>
       @page {
         size: A4;
-        margin: 13mm 15mm 14mm;
+        margin: 14mm 15mm;
       }
 
       :root {
-        --ink: #17212f;
-        --muted: #66717d;
-        --soft: #eef1f4;
-        --line: #d8dde3;
-        --accent: #1f6f8b;
+        --ink: #111827;
+        --text: #273444;
+        --muted: #6b7280;
+        --line: #cfd6df;
       }
 
       * {
         box-sizing: border-box;
       }
 
-      html,
       body {
         margin: 0;
-        padding: 0;
+        color: var(--text);
+        font-family: "Apple SD Gothic Neo", "AppleGothic", "Malgun Gothic", sans-serif;
+        font-size: 10pt;
+        line-height: 1.52;
+        background: #fff;
       }
 
-      body {
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 42px 46px;
+      }
+
+      header {
+        padding-bottom: 14px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+      }
+
+      h1 {
+        margin: 0;
         color: var(--ink);
-        font-family: "Apple SD Gothic Neo", "AppleGothic", "Malgun Gothic", sans-serif;
-        font-size: 10.2pt;
-        line-height: 1.48;
-        background: #fff;
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: 0;
+      }
+
+      .role {
+        margin: 7px 0 9px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .contact {
+        color: var(--text);
+        font-size: 12px;
       }
 
       a {
@@ -40,61 +65,17 @@
         text-decoration: none;
       }
 
-      .resume {
-        width: 100%;
-      }
-
-      .header {
-        padding-bottom: 10px;
-        border-bottom: 1px solid var(--ink);
-      }
-
-      .name-row {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-        gap: 18px;
-      }
-
-      h1 {
-        margin: 0;
-        font-size: 27pt;
-        line-height: 1;
-        letter-spacing: 0;
-      }
-
-      .role {
-        margin: 0 0 2px;
-        color: var(--accent);
-        font-size: 10.4pt;
-        font-weight: 700;
-        text-align: right;
-      }
-
-      .contact {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px 14px;
-        margin-top: 8px;
-        color: var(--muted);
-        font-size: 9.4pt;
-      }
-
-      .contact strong {
-        color: var(--ink);
-        font-weight: 700;
-      }
-
       section {
-        margin-top: 13px;
+        margin-top: 19px;
       }
 
       h2 {
-        margin: 0 0 6px;
-        padding-bottom: 3px;
+        margin: 0 0 9px;
+        padding-bottom: 4px;
         border-bottom: 1px solid var(--line);
         color: var(--ink);
-        font-size: 12.2pt;
+        font-size: 16px;
+        font-weight: 500;
         letter-spacing: 0;
       }
 
@@ -102,58 +83,20 @@
         margin: 0;
       }
 
-      .summary {
-        color: #2e3945;
-        font-size: 10.6pt;
-      }
-
-      .summary strong {
-        color: var(--ink);
-      }
-
-      .strengths {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 8px;
-      }
-
-      .strength {
-        padding: 8px 9px;
-        border: 1px solid var(--line);
-        background: #fafbfc;
-      }
-
-      .strength h3 {
-        margin: 0 0 4px;
-        color: var(--accent);
-        font-size: 9.6pt;
-      }
-
-      .strength p {
-        color: #394553;
-        font-size: 9.1pt;
-      }
-
-      .skills {
+      .label-line {
         display: grid;
         grid-template-columns: 112px 1fr;
-        gap: 4px 10px;
-        font-size: 9.3pt;
+        gap: 12px;
+        margin: 4px 0;
       }
 
-      .skills dt {
+      .label-line b {
         color: var(--ink);
-        font-weight: 700;
-      }
-
-      .skills dd {
-        margin: 0;
-        color: #3a4652;
+        font-weight: 500;
       }
 
       .job {
-        margin-top: 10px;
-        break-inside: avoid;
+        margin-top: 16px;
       }
 
       .job:first-of-type {
@@ -163,136 +106,71 @@
       .job-head {
         display: flex;
         justify-content: space-between;
-        gap: 12px;
-        margin-bottom: 2px;
+        gap: 16px;
+        color: var(--ink);
       }
 
-      .job-title {
-        font-size: 11.1pt;
-        font-weight: 800;
-      }
-
-      .period {
+      .period,
+      .org,
+      .tech {
         color: var(--muted);
-        font-size: 9.4pt;
-        white-space: nowrap;
-      }
-
-      .job-subtitle {
-        margin-bottom: 4px;
-        color: #2f3b49;
-        font-size: 9.6pt;
-        font-weight: 700;
       }
 
       ul {
-        margin: 0;
-        padding-left: 13px;
+        margin: 7px 0 0;
+        padding-left: 16px;
       }
 
       li {
-        margin: 2px 0;
-        padding-left: 1px;
-      }
-
-      .compact-list li {
-        margin: 1px 0;
+        margin: 3px 0;
       }
 
       .tech {
-        margin-top: 3px;
-        color: var(--muted);
-        font-size: 8.8pt;
+        margin-top: 4px;
+        font-size: 12px;
       }
 
       .page-break {
         break-before: page;
       }
-
-      .education {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 8px;
-      }
-
-      .edu-item {
-        color: #3a4652;
-        font-size: 9.3pt;
-      }
-
-      .edu-item strong {
-        display: block;
-        color: var(--ink);
-      }
     </style>
   </head>
   <body>
-    <main class="resume">
-      <header class="header">
-        <div class="name-row">
-          <h1>최봉재 <span lang="en">(Bongjae Choi)</span></h1>
-          <p class="role">Senior App / Cross-Platform Engineer</p>
-        </div>
-        <div class="contact" aria-label="contact">
-          <span>010-5852-4678</span>
-          <span>jjgod0124@gmail.com</span>
-          <span><strong>Portfolio</strong>: <a href="https://bongjaechoi.github.io/">bongjaechoi.github.io</a></span>
-          <span><strong>GitHub</strong>: <a href="https://github.com/BongJaeChoi">github.com/BongJaeChoi</a></span>
-        </div>
+    <main>
+      <header>
+        <h1>최봉재 (Bongjae Choi)</h1>
+        <p class="role">Senior App / Cross-Platform Engineer · Mobile-first Product Engineering</p>
+        <p class="contact">
+          010-5852-4678 · jjgod0124@gmail.com ·
+          Portfolio: <a href="https://bongjaechoi.github.io/">bongjaechoi.github.io</a> ·
+          GitHub: <a href="https://github.com/BongJaeChoi">github.com/BongJaeChoi</a>
+        </p>
       </header>
 
       <section>
         <h2>Summary</h2>
-        <p class="summary">
-          Flutter와 Android 기반 앱 개발 경험을 중심으로, <strong>WebView 인증, 결제 예외, 실시간 상태,
-          앱 배포 자동화</strong>처럼 제품 운영에서 자주 깨지는 경계를 정리해 온 모바일 중심 제품 엔지니어입니다.
-          AI 도구는 단순 코드 생성이 아니라 AGENTS.md, Copilot instructions, 테스트/검증 명령으로 결과를 확인하는
-          개발 루틴으로 사용합니다.
+        <p>
+          Flutter와 Android 기반 앱 개발 경험을 중심으로 WebView 인증, 결제 예외, 실시간 상태, 앱 배포 자동화처럼
+          제품 운영에서 자주 깨지는 경계를 정리해 온 모바일 중심 제품 엔지니어입니다. AI 도구는 단순 코드 생성이
+          아니라 AGENTS.md, Copilot instructions, 테스트/검증 명령으로 결과를 확인하는 개발 루틴으로 사용합니다.
         </p>
       </section>
 
       <section>
-        <h2>Core Strengths</h2>
-        <div class="strengths">
-          <article class="strength">
-            <h3>Mobile Product Engineering</h3>
-            <p>Flutter, Android, 앱 생명주기, 스토어 배포, 하이브리드 앱 운영 경험</p>
-          </article>
-          <article class="strength">
-            <h3>WebView / Payment / Auth</h3>
-            <p>앱과 웹 사이의 인증, PG 결제 예외, 딥링크, 세션 경계 문제 정리</p>
-          </article>
-          <article class="strength">
-            <h3>AI-assisted Guardrails</h3>
-            <p>AI 작업 지침, 위험 패턴 차단, 서브에이전트 분업, 배포 전 검증 루틴</p>
-          </article>
-        </div>
-      </section>
-
-      <section>
-        <h2>Skills</h2>
-        <dl class="skills">
-          <dt>Mobile</dt>
-          <dd>Flutter, Dart, Android, Kotlin, Java, RxJava, MVVM, Clean Architecture, Jetpack</dd>
-          <dt>App Boundary</dt>
-          <dd>WebView, JSBridge, Cookie Auth, Deep Link, PG Payment Flow, SignalR, FCM</dd>
-          <dt>Frontend</dt>
-          <dd>React, Vue, TypeScript, TanStack Query, Zustand</dd>
-          <dt>Release / Ops</dt>
-          <dd>Fastlane, Firebase App Distribution, CI/CD, Docker, Nginx Reverse Proxy</dd>
-          <dt>AI Workflow</dt>
-          <dd>AGENTS.md, Copilot Instructions, Cursor, AI Coding Guardrail, verification commands</dd>
-        </dl>
+        <h2>Highlights</h2>
+        <p class="label-line"><b>Mobile</b><span>Flutter, Android, 앱 생명주기, 스토어 배포, 하이브리드 앱 운영 경험</span></p>
+        <p class="label-line"><b>Boundary</b><span>WebView, JSBridge, Cookie Auth, Deep Link, PG Payment Flow, SignalR</span></p>
+        <p class="label-line"><b>AI Workflow</b><span>AGENTS.md, Copilot Instructions, Cursor, AI Coding Guardrail, verification commands</span></p>
       </section>
 
       <section>
         <h2>Experience</h2>
         <article class="job">
           <div class="job-head">
-            <div class="job-title">실시간 예약 협상 플랫폼 개발 (Dealert)</div>
-            <div class="period">2025.07 - 2026.04</div>
+            <strong>실시간 예약 협상 플랫폼 개발 (Dealert)</strong>
+            <span class="period">2025.07 - 2026.04</span>
           </div>
-          <p class="job-subtitle">Flutter 앱 2종과 React 파트너 웹의 결제, 인증, 실시간, 배포 흐름 안정화</p>
+          <p class="org">Flutter 앱 2종과 React 파트너 웹의 결제, 인증, 실시간, 배포 흐름 안정화</p>
           <ul>
             <li>PG/WebView/앱 라우팅 경계에서 결제 취소 상태를 성공/실패 흐름과 분리하고 테스트로 고정했습니다.</li>
             <li>WebView 쿠키 인증, 자동 로그인 의도, 토큰 갱신 순서를 나눠 로그인 풀림 회귀를 줄였습니다.</li>
@@ -305,11 +183,11 @@
 
         <article class="job">
           <div class="job-head">
-            <div class="job-title">주식회사 루나소프트 / 그린앤그레이</div>
-            <div class="period">2021.05 - 2024.05</div>
+            <strong>주식회사 루나소프트 / 그린앤그레이</strong>
+            <span class="period">2021.05 - 2024.05</span>
           </div>
-          <p class="job-subtitle">버티컬 패션 쇼핑몰 셀룩 하이브리드 앱 및 Vue 프론트엔드 개발</p>
-          <ul class="compact-list">
+          <p class="org">버티컬 패션 쇼핑몰 셀룩 하이브리드 앱 및 Vue 프론트엔드 개발</p>
+          <ul>
             <li>Vue 기반 프론트엔드 초기 프로젝트 구조와 빌드 세팅을 구성했습니다.</li>
             <li>JSBridge 인터페이스로 Native App과 Web 간의 유기적 통신을 구현했습니다.</li>
             <li>React Query, TypeScript, API 문서 기반 코드 생성 흐름을 도입해 반복 구현 비용을 줄였습니다.</li>
@@ -317,53 +195,53 @@
           </ul>
           <p class="tech">Vue, TypeScript, JSBridge, Hybrid App, React Query</p>
         </article>
-      </section>
 
-      <section class="page-break">
-        <h2>Experience Continued</h2>
         <article class="job">
           <div class="job-head">
-            <div class="job-title">(주)피알앤디컴퍼니 (헤이딜러)</div>
-            <div class="period">2018.10 - 2020.12</div>
+            <strong>(주)피알앤디컴퍼니 (헤이딜러)</strong>
+            <span class="period">2018.10 - 2020.12</span>
           </div>
-          <p class="job-subtitle">중고차 플랫폼 헤이딜러 고객용/딜러용 Android 앱 개발</p>
+          <p class="org">중고차 플랫폼 헤이딜러 고객용/딜러용 Android 앱 개발</p>
           <ul>
-            <li>딜러 전용 앱 리뉴얼(v3 -> v4)에 참여하고 주요 화면과 사용자 흐름을 구현했습니다.</li>
+            <li>딜러 전용 앱 리뉴얼(v3 -&gt; v4)에 참여하고 주요 화면과 사용자 흐름을 구현했습니다.</li>
             <li>이미지 첨부 프로세스의 메모리 문제를 Stream 기반 처리로 개선해 앱 안정성과 UX를 높였습니다.</li>
             <li>Kotlin 도입과 MVVM 기반 안드로이드 아키텍처 적용을 진행했습니다.</li>
           </ul>
           <p class="tech">Android, Kotlin, Java, RxJava, MVVM, Image Pipeline</p>
         </article>
+      </section>
 
+      <section class="page-break">
+        <h2>Earlier Experience</h2>
         <article class="job">
           <div class="job-head">
-            <div class="job-title">(주)스펙업애드</div>
-            <div class="period">2018.03 - 2018.09</div>
+            <strong>(주)스펙업애드</strong>
+            <span class="period">2018.03 - 2018.09</span>
           </div>
-          <p class="job-subtitle">보상형 앱 타임스프레드 개발</p>
-          <ul class="compact-list">
+          <p class="org">보상형 앱 타임스프레드 개발</p>
+          <ul>
             <li>상점 화면 등 주요 기능을 개발하고 앱 배포 자동화 프로세스를 구축했습니다.</li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-head">
-            <div class="job-title">(주)씨이랩</div>
-            <div class="period">2017.02 - 2018.03</div>
+            <strong>(주)씨이랩</strong>
+            <span class="period">2017.02 - 2018.03</span>
           </div>
-          <p class="job-subtitle">리워드 서비스 치즈카운터 개발</p>
-          <ul class="compact-list">
+          <p class="org">리워드 서비스 치즈카운터 개발</p>
+          <ul>
             <li>카메라 및 이미지 처리 기능을 개발하고 네트워크 통신 아키텍처를 설계했습니다.</li>
           </ul>
         </article>
 
         <article class="job">
           <div class="job-head">
-            <div class="job-title">주식회사 트램스</div>
-            <div class="period">2015.07 - 2016.07</div>
+            <strong>주식회사 트램스</strong>
+            <span class="period">2015.07 - 2016.07</span>
           </div>
-          <p class="job-subtitle">다수의 Android 앱 외주 및 자체 서비스 개발</p>
-          <ul class="compact-list">
+          <p class="org">다수의 Android 앱 외주 및 자체 서비스 개발</p>
+          <ul>
             <li>식당 매물중개 서비스 앱 초기 설계와 지도 API 연동을 구현했습니다.</li>
             <li>통화 화면 커스터마이징, 강연 앱, 물류 PDA 앱 등 다양한 Android 도메인을 개발했습니다.</li>
           </ul>
@@ -371,19 +249,24 @@
 
         <article class="job">
           <div class="job-head">
-            <div class="job-title">주식회사 애니웨어</div>
-            <div class="period">2014.03 - 2014.08</div>
+            <strong>주식회사 애니웨어</strong>
+            <span class="period">2014.03 - 2014.08</span>
           </div>
-          <p class="job-subtitle">Android 앱 개발 실무 참여</p>
+          <p class="org">Android 앱 개발 실무 참여</p>
         </article>
       </section>
 
       <section>
+        <h2>Skills</h2>
+        <p class="label-line"><b>Mobile</b><span>Flutter, Dart, Android, Kotlin, Java, RxJava, MVVM, Clean Architecture, Jetpack</span></p>
+        <p class="label-line"><b>Frontend</b><span>React, Vue, TypeScript, TanStack Query, Zustand</span></p>
+        <p class="label-line"><b>Release</b><span>Fastlane, Firebase App Distribution, CI/CD, Docker, Nginx Reverse Proxy</span></p>
+      </section>
+
+      <section>
         <h2>Education</h2>
-        <div class="education">
-          <p class="edu-item"><strong>한국방송통신대학교</strong>컴퓨터과학과 (2019.03 - 2023.02)</p>
-          <p class="edu-item"><strong>대전보건대학교</strong>바이오정보과 (2010.03 - 2014.02)</p>
-        </div>
+        <p class="label-line"><b>한국방송통신대학교</b><span>컴퓨터과학과 (2019.03 - 2023.02)</span></p>
+        <p class="label-line"><b>대전보건대학교</b><span>바이오정보과 (2010.03 - 2014.02)</span></p>
       </section>
     </main>
   </body>
